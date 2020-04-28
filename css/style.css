@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Sitka Small';
+    src: url('SitkaSmall.woff2') format('woff2'),
+    url('SitkaSmall.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html body{
+    background-color: #0a0a0a;
+    font-family: 'Sitka Small', sans-serif;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 40px;
+}
+
+h1.big{
+    font-size: 100px;
+    border-bottom: 10px solid white;
+    padding-bottom: 3px;
+    margin-right: 500px;
+ }
+
+h1.medium{
+    font-size: 60px;
+    border-bottom: 10px solid white;
+    margin-right: 140px;
+}
+
+h4.bottom{
+    position: absolute; bottom: 0;
+    padding-bottom: 90px;
+}
+
+.img-width{padding-right: 650px}
+.detail-about{margin-top: 20px; padding-right: 100px; line-height: 1.5}
+
+h1.medium-profile{
+    font-size: 40px;
+    text-align: center;
+}
+
+u{margin-top: 20px}
+.size-big{
+    font-size: 100px;
+    padding: 20px;
+}
+
+a.link{
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    z-index: 99;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}

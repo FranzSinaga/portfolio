@@ -1,1 +1,130 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=stylesheet href=assets/style.css><link rel=stylesheet href=https://use.fontawesome.com/releases/v5.8.1/css/all.css integrity=sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf crossorigin=anonymous><link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css integrity=sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T crossorigin=anonymous><link rel=icon href=favicon.ico><title>portfolio</title><link href=css/app.27bcfe6d.css rel=preload as=style><link href=js/app.c10e89cd.js rel=preload as=script><link href=js/chunk-vendors.1e9f7fa6.js rel=preload as=script><link href=css/app.27bcfe6d.css rel=stylesheet></head><body><noscript><strong>We're sorry but portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=https://code.jquery.com/jquery-3.3.1.slim.min.js integrity=sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo crossorigin=anonymous></script><script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js integrity=sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 crossorigin=anonymous></script><script src=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js integrity=sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM crossorigin=anonymous></script><script src=assets/script.js></script><script src=js/chunk-vendors.1e9f7fa6.js></script><script src=js/app.c10e89cd.js></script></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Franz Sinaga</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+  <div class="container" id="home">
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+          F
+        </a>
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#about" class="navbar-item">About</a>
+          <a href="https://medium.com/@sinagafranz12" class="navbar-item">Latest Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <a href="#home" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+      <section class="hero is-fullheight-with-navbar is-black">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="big">
+              Hey, It's Me
+            </h1>
+          </div>
+          <h4 class="bottom">
+            <a href="#about" class="link">Scroll down <i class="fas fa-arrow-down"></i></a>
+          </h4>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <section class="hero is-fullheight is-black" id="about">
+        <div class="hero-body">
+          <div class="columns ">
+            <div class="column">
+              <figure class="image is-3by2">
+                <img src="about.jpg" alt="">
+              </figure>
+              <p class="img-width"></p>
+            </div>
+            <div class="column">
+              <h1 class="medium">About me</h1>
+              <p class="detail-about">Introducing, My name is Franz Aditya Natanael Sinaga.
+                I am a student at the Del Institute of Technology. I am happy to
+                learn new things about technology, especially in the field of software engineer
+                I like writing code. I wrote the code for my study and directed myself to work in the IT world
+                according to my interests. I like to work with other people to get things done. If you love to share
+                something to me, feel free to reach me.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hero is-black">
+        <div class="hero-body">
+          <div class="is-centered">
+            <h1 class="medium-profile">Look My Profile At</h1>
+            <div class="columns is-mobile is-centered" style="padding: 25px">
+                <a class="link" href="https://github.com/FranzSinaga"><i class="fab fa-github size-big"></i></a>
+                <a class="link" href="https://medium.com/@sinagafranz12"><i class="fab fa-medium size-big"></i></a>
+                <a class="link" href="https://www.linkedin.com/in/franz-sinaga-4b39b9162/"><i class="fab fa-linkedin size-big"></i></a>
+                <a class="link" href="https://www.instagram.com/sinagafranz120/?hl=id"><i class="fab fa-instagram size-big"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+<!--  <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>-->
+  </body>
+
+  <script>
+    //Get the button:
+    mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 100px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      // Check if there are any navbar burgers
+      if ($navbarBurgers.length > 0) {
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+          });
+        });
+      }
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+  </script>
+</html>

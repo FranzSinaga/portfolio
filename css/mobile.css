@@ -1,0 +1,16 @@
+@media only screen and (max-width: 900px) {
+    h1.big{
+        font-size: 60px;
+        margin-right: 0px;
+    }
+    .img-width{padding-right: 20px}
+    h1.medium{ margin-right: 0px;}
+    .detail-about{margin-top: 20px; padding-right: 0px; line-height: 1.5}
+    .size-big{
+        font-size: 90px;
+        padding: 20px;
+    }
+    #myBtn {
+        right: 20px;
+    }
+}
